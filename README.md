@@ -6,7 +6,7 @@ This repository contains R scripts for scraping and processing housing data from
 
 - **[URL_SCRAPPER.R](https://github.com/simonpierreboucher0/DUPROPRIO_WEBSCRAPING/blob/main/URL_SCRAPPER.R)**: This script collects URLs for individual property listings from DuProprio. It identifies relevant links from the main search pages to prepare for detailed scraping.
 - **[HOUSING_PAGE_SCRAPPER.R](https://github.com/simonpierreboucher0/DUPROPRIO_WEBSCRAPING/blob/main/HOUSING_PAGE_SCRAPPER.R)**: This script accesses each property’s page using the URLs from `URL_SCRAPPER.R`, then extracts key information such as price, location, property features, and descriptions.
-- **[FEATURE_ENGINEERING.R](https://github.com/simonpierreboucher0/DUPROPRIO_WEBSCRAPING/blob/main/FEATURE_ENGINEERING.R)**: After data collection, this script processes and refines the data for analysis, including transformations, creating derived features, and handling missing values.
+- **[FEATURE_ENGINEERING.R](FEATURE_ENGINEERING.R)**: After data collection, this script processes and refines the data for analysis, including transformations, creating derived features, and handling missing values.
 
 ## Getting Started
 
